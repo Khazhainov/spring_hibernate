@@ -22,11 +22,9 @@ public class Car {
     public Car() {
     }
 
-    public Car(Long id, String name, int series, User user) {
-        this.id = id;
+    public Car(String name, int series) {
         this.name = name;
         this.series = series;
-        this.user = user;
     }
 
     public Long getId() {
